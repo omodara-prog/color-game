@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body id="container" onmouseleave="return backgroundcolor('white')">
+    <div class="square-to-circle">
+  <div class="up">
+    <div class="up-left" onmouseover="return backgroundcolor('red')">
+      
+    </div>
+    <div class="up-right" onmouseover="return backgroundcolor('green')">
+      
+    </div>
+  </div>
+  <div class="down">
+    <div class="down-left" onmouseover="return backgroundcolor('blue')">
+     
+    </div>
+    <div class="down-right" onmouseover="return backgroundcolor('yellow')">
+      
+    </div>
+  </div>
+</div>
+</body>
+<script>
+ 
+     function backgroundcolor(color) {
+      document.body.style.backgroundColor = color
+      document.body.style.transition = "1.2s ease-in"
+     }
+
+</script>
+</html>

@@ -1,0 +1,50 @@
+  .square-to-circle{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      position: absolute;
+      left: 620px;
+      top: 270px;
+    }
+
+.up{
+  width: inherit;
+  height: 50px;
+  display: flex;
+}
+
+.down {
+  width: inherit;
+  height: 50px;
+  display: flex;
+}
+
+.up-left{
+  background-color: red;
+  width: 50px;
+  height: inherit;
+  border-top-left-radius: 50px;
+}
+
+
+
+.up-right{
+  background-color: green;
+  width: 50px;
+  height: inherit;
+  border-top-right-radius: 50px;
+}
+
+.down-left{
+  background-color: blue;
+  width: 50px;
+  height: inherit;
+  border-bottom-left-radius: 50px;
+}
+
+.down-right{
+  background-color: yellow;
+  width: 50px;
+  height: inherit;
+  border-bottom-right-radius: 50px;
+}
